@@ -1,0 +1,59 @@
+body{
+    background-image: linear-gradient(
+        rgba(61, 54, 54, 0.75), rgba(0,0,0,0.75)), url(https://media.istockphoto.com/id/626416292/photo/the-hands-of-young-barber-making-haircut-to-attractive-man.jpg?s=612x612&w=0&k=20&c=kWoXXYFdXZzXvNfBSNNCT9MMJhPngx-SMBV1asorB2g=);
+      background-size: cover;  
+      width: 98%;
+      height: 110vh;
+}
+
+.nav{
+  width: 85%;
+  display: flex;  
+  justify-content: space-between;
+  color: azure;
+  margin: 30px;
+}
+
+.nav li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+button{
+    background-color: #FF7F50;
+    padding: 9px;
+    color: white; /*This is the color of text*/
+    font-size: 30px;
+    display: inline-block;
+    border-radius: 50px;
+    border: none;
+    list-style-type: none;
+    width: 100px;
+    outline: none;
+   
+}
+.contact{
+    border-radius: 50px;
+    width: 120px;
+}
+.body-portion{
+    width: 60%;
+    align-items: center;/*For adjusting contents at center*/
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    margin: 10% 0 0 30%;
+    display: flex;
+}
+
+.nav li:hover{
+   color:#FF7F50;
+}
+
+.body-portion button:hover{
+    background-color:white;
+   color:#FF7F50;
+}
